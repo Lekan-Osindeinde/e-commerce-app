@@ -5,6 +5,9 @@ import styled from "styled-components";
 
 const Container = styled.div`
   height: 60px;
+  position: sticky;
+  top: 30px;
+  z-index: 10;
 `;
 const Wrapper = styled.div`
   padding: 10px 20px;

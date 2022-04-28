@@ -10,6 +10,7 @@ const Container = styled.div`
   background-color: coral;
   position: relative;
   overflow: hidden;
+  height: calc(100vh - 90px);
 `;
 const Arrow = styled.div`
   width: 50px;
@@ -39,7 +40,7 @@ const Wrapper = styled.div`
 
 const Slide = styled.div`
   width: 100vw;
-  height: 100vh;
+
   display: flex;
   align-items: center;
   background-color: #${(props) => props.bg};
