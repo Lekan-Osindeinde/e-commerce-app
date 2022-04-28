@@ -54,6 +54,7 @@ const List = styled.ul`
   list-style: none;
   display: flex;
   flex-wrap: wrap;
+  cursor: pointer;
 `;
 
 const ListItem = styled.li`

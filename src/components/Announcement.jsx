@@ -10,7 +10,7 @@ const Container = styled.div`
   font-size: 14px;
   font-weight: 500;
   position: sticky;
-  top: 0px;
+  top: 60px;
   z-index: 10;
 `;
 
